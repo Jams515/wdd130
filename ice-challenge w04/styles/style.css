@@ -1,0 +1,59 @@
+body {
+    background-color: lightpink;
+    margin: 0 auto;
+    display: block;
+    max-width: 400px;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+p {
+    color: white;
+    font-size: .75em;
+    text-align: center;
+
+}
+
+h2 {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    font-size: 2.5em;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif
+    
+}
+
+h4 {
+    color: black;
+    font-size: .75em;
+    text-align: center;
+}
+
+ol {
+    color: black;
+    font-size: 1em;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+h1:hover {
+    color: black;
+}
