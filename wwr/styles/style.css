@@ -7,3 +7,32 @@ body {
     width: 900px;
     height: auto;
 }
+
+
+h1 {
+    color: lightcoral;
+    font-size: 4em;
+}
+
+
+h2 {
+    color: purple;
+    font-size: 2em;
+}
+
+
+h3 {
+    color: sandybrown;
+    font-size: 1em;
+}
+
+
+h4 {
+    color: seagreen;
+    font-size: 17px;
+}
+
+
+p {
+    color: royalblue;
+}
