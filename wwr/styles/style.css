@@ -113,9 +113,7 @@ footer h3 a:hover{
     margin: 0 auto;
 }
 
-.social{
-    display: inline;
-    max-width: 80px;
+
+.social img{
     width: 80px;
-    height: auto;
 }
