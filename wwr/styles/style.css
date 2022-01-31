@@ -114,6 +114,7 @@ footer h3 a:hover{
 }
 
 .social{
+    display: inline;
     max-width: 80px;
     width: 80px;
     height: auto;
