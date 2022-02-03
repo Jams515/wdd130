@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Yellowtail&display=swap');
+
 body{
     background-color: #D9D7DD;
+    margin: 0;
+    padding: 0;
 }
 
 header{
@@ -20,14 +25,18 @@ nav a{
     text-align: center;
     color: #D9D7DD;
     text-decoration: none;
+    font-family: "Open Sans", "Arial", sans-serif;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4{
     text-align: center;
+
 }
 
 .button-box{
     text-align: center;
+    font-family: "Open Sans", "Arial", sans-serif;
 }
 
 main section{
@@ -43,6 +52,11 @@ main section{
     background-color: #004E64;
     color: #D9D7DD;
     text-decoration: none;
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover{
@@ -51,34 +65,56 @@ main section{
 
 .msg{
     background-color: #004E64;
+    line-height: 1.5em;
+    font-family: "Open Sans", "Arial", sans-serif;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer{
     background-color: #004E64;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
+
 .home-title{
     color: black;
+    font-family: 'Yellowtail', 'Brush-Script-MT', 'cursive';
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4{
     color: black;
+    font-family: "Open Sans", "Arial", sans-serif;
 }
 
 .msg h2{
     color: #D9D7DD;
+    font-family: "Open Sans", "Arial", sans-serif;
+}
+
+h2 {
+    font-family: "Open Sans", "Arial", sans-serif;
+    margin: 0;
 }
 
 .msg p{
     color: #D9D7DD;
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer h3{
     color: #D9D7DD;
+    font-family: "Open Sans", "Arial", sans-serif;
 }
 
 footer a{
     color: #D9D7DD;
     text-decoration: none;
+    font-family: "Open Sans", "Arial", sans-serif;
 }
 
 footer a:hover{
@@ -93,6 +129,7 @@ footer a:hover{
 .icon{
     width: 80px;
     height: auto;
+    padding-top: 10px;
 }
 
 footer h3 a:hover{
@@ -103,17 +140,38 @@ footer h3 a:hover{
     max-width: 600px;
     width: 600px;
     height: auto;
+    border: solid #004E64 10px;
 }
 
 #hero-img{
     display: block;
-    max-width: 1600px;
-    width: 1080px;
+    max-width: 1440px;
+    width: 1440px;
     height: auto;
     margin: 0 auto;
 }
 
-
 .social img{
     width: 80px;
+    padding-top: 15px;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.rivers-card {
+    margin: 200px 0;
+}
+
+.camping-card {
+    margin: 200px 0;
+}
+
+.rapids-card {
+    margin: 200px 0;
+}
+
+main section img {
+    box-sizing: border-box;
 }
