@@ -265,9 +265,14 @@ main section img {
     }
     #hero-msg {
         margin-top: 0;
+        color: #06908F;
+    }
+    #hero-msg h1 {
+        color: #06908F;
     }
     #hero-msg h4 {
         display: none;
+        color: #06908F;
     }
     .home-title {
         font-size: 25px;
