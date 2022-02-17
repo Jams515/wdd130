@@ -274,6 +274,9 @@ main section img {
         display: none;
         color: #06908F;
     }
+    #hero-img {
+        margin-top: 0px;
+    }
     .home-title {
         font-size: 25px;
         color: #6f7364;
