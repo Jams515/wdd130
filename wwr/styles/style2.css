@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Yellowtail&display=swap');
+
+body {
+    background-color: #D9D7DD;
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #004E64;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-align: center;
+    color: #D9D7DD;
+    text-decoration: none;
+    font-family: "Open Sans", "Arial", sans-serif;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: #D9D7DD;
+    color: #004E64;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+}
+
+ footer {
+    background-color: #004E64;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer h3 {
+    color: #D9D7DD;
+    font-family: "Open Sans", "Arial", sans-serif;
+}
+
+footer a {
+    color: #D9D7DD;
+    text-decoration: none;
+    font-family: "Open Sans", "Arial", sans-serif;
+}
+
+footer a:hover{
+    color: #D9D7DD;
+}
+
+footer h3 a:hover{
+    text-decoration: underline;
+}
+
+.social img{
+    width: 80px;
+    padding-top: 15px;
+}

@@ -49,11 +49,6 @@ nav{
     margin-top: 50px;
 }
 
-nav a:hover{
-    background-color: #004E64;
-    color: #D9D7DD;
-}
-
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -71,6 +66,7 @@ nav a:hover{
     background-color: #D9D7DD;
     color: #004E64;
 }
+
 #hero-msg h1{
     text-align: center;
     color: #D9D7DD;
