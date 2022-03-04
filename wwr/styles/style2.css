@@ -11,7 +11,7 @@ body {
     max-width: 1600px;
     margin: 0 auto;
 }
-
+/* header */
 header {
     display: grid;
     grid-template-columns: 150px auto;
@@ -46,6 +46,71 @@ nav a:hover {
     width: 80px;
     height: auto;
 }
+/* main pager*/
+
+.home-grid {
+    display: grid;
+}
+
+main section {
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 3em;
+    font-family: 'Yellowtail', 'Brush-Script-MT', 'cursive';
+}
+
+.title h3 {
+    font-size: 1.5em;
+    font-family: 'Yellowtail', 'Brush-Script-MT', 'cursive';
+}
+
+.card-img {
+    max-width: 500px;
+    width: 500px;
+    height: auto;
+    border: solid #004E64 10px;
+    box-shadow: 5px 5px 10px #555;
+}
+
+.card-img {
+    margin: 50px 0;
+}
+
+.river1 img {
+    grid-column: 1, 4;
+    grid-row: 1, 4;
+}
+
+.river2 img {
+    grid-column: 1, 4;
+    grid-row: 4, 7;
+}
+
+.river3 img {
+    grid-column: 1, 4;
+    grid-row: 7, 10;
+}
+
+.home-grid h2 {
+    font-family: 'Yellowtail', 'Brush-Script-MT', 'cursive';
+    font-size: 2em;
+}
+
+.home-grid p {
+    font-family: "Open Sans", "Arial", sans-serif;
+    grid-column: 5, 10;
+}
+
+main section p {
+    align-content: center;
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-bottom: 25px;
+    line-height: 1.5em;
+}
+/* footer */
 
  footer {
     background-color: #004E64;
