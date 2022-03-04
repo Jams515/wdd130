@@ -78,21 +78,6 @@ main section {
     margin: 50px 0;
 }
 
-.river1 img {
-    grid-column: 1, 4;
-    grid-row: 1, 4;
-}
-
-.river2 img {
-    grid-column: 1, 4;
-    grid-row: 4, 7;
-}
-
-.river3 img {
-    grid-column: 1, 4;
-    grid-row: 7, 10;
-}
-
 .home-grid h2 {
     font-family: 'Yellowtail', 'Brush-Script-MT', 'cursive';
     font-size: 2em;
@@ -100,7 +85,6 @@ main section {
 
 .home-grid p {
     font-family: "Open Sans", "Arial", sans-serif;
-    grid-column: 5, 10;
 }
 
 main section p {
