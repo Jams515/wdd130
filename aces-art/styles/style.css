@@ -1,5 +1,101 @@
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+/* header */
 img {
-    max-width: 250px;
+    max-width: 100px;
+}
+body {
+    background-color: #D9D7DD;
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    background-color: #DF928E;
+}
+
+#nav1 {
+    padding-top: 25px;
+}
+
+#nav2 {
+    padding-top: 25px;
+}
+
+nav a {
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    font-family: "Open Sans", "Arial", sans-serif;
+    padding: 35px;
+}
+
+/* home page */
+
+#hero-msg {
+    font-family: "Parisienne", "Brush-Script-MT", "cursive";
+    font-size: 2em;
+    text-align: center;
+}
+
+h4 {
+    font-family: "Yellowtail", "Brush-Script-MT", "cursive";
+    font-size: 1.5em;
+}
+
+.home-grid {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#home1 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.home-paragraph {
+    max-width: 300px;
+    
+}
+
+.home-paragraph2 {
+    max-width: 300px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* footer */
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    background-color: #C58882;
+}
+
+.social {
+    grid-column: 10 / 11;
+    padding-top: 25px;
+}
+
+.social img {
+    max-width: 100px;
 }
